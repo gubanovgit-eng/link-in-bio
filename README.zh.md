@@ -39,7 +39,7 @@
 
 1. **克隆仓库:**
 ```bash
-   git clone [https://github.com/gubanovgit-eng/link-in-bio.git](https://github.com/gubanovgit-eng/link-in-bio.git)
+   git clone https://github.com/gubanovgit-eng/link-in-bio.git
    cd link-in-bio
    ```
 2. **安装依赖:**
