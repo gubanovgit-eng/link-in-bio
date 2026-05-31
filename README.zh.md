@@ -38,7 +38,7 @@
 ## 📦 快速上手
 
 1. **克隆仓库:**
-```bash
+   ```bash
    git clone https://github.com/gubanovgit-eng/link-in-bio.git
    cd link-in-bio
    ```
