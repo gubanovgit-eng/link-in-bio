@@ -36,7 +36,8 @@
 ---
 
 <details>
-<summary>## 📦 Быстрый старт</summary>
+<summary>📦 Быстрый старт</summary>
+
 1. **Клонируйте репозиторий:**
    ```bash
    git clone https://github.com/gubanovgit-eng/link-in-bio.git
@@ -54,6 +55,7 @@
    ```bash
    npm run build
    ```
+
 </details>
    
 ---
