@@ -1,5 +1,13 @@
 # Minimalist Link in Bio // Premium Portfolio
 
+<p align="center">
+  <a href="./README.md">🌐 Русский</a> | 
+  <a href="./README.en.md">🇬🇧 English</a> | 
+  <a href="./README.zh.md">🇨🇳 中文</a>
+</p>
+
+---
+
 ⚡️ Современный, высокопроизводительный и адаптивный сайт-визитка (Link in Bio), вдохновленный минималистичной эстетикой интерфейсов Apple и платформы Awwwards. Построен на стеке React + Vite с кастомной стилизацией и полноценной поддержкой микро-анимаций.
 
 🔗 **Живая демо-версия:** [Посмотреть сайт](https://gubanovgit-eng.github.io/link-in-bio/)
