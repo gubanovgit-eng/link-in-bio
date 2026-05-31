@@ -38,27 +38,27 @@
 ## 📦 Quick Start
 
 1. **Clone the repository:**
-```bash
+   ```bash
    git clone https://github.com/gubanovgit-eng/link-in-bio.git
    cd link-in-bio
-```
+   ```
 2. **Install dependencies:**
-```bash
+   ```bash
    npm install
-```
+   ```
 3. **Run the local development server:**
-```bash
+   ```bash
    npm run dev
-```
+   ```
 4. **Build the project for production:**
-```bash
+   ```bash
    npm run build
-```
+   ```
 
 ---
 
 ## 📂 Project Structure
-```text
+   ```text
 src/
 ├── components/
 │   ├── Avatar.jsx         # Dynamic media avatar container
@@ -71,4 +71,4 @@ src/
 ├── index.css              # Optimized styles utilizing CSS Nesting
 └── main.jsx               # React application initialization
 
-```
+   ```
