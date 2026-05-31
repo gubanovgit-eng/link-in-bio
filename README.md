@@ -1,7 +1,7 @@
 # Minimalist Link in Bio // Premium Portfolio
 
 <p align="center">
-  <a href="./README.md">🌐 Русский</a> | 
+  <a href="./README.md">🇷🇺 Русский</a> | 
   <a href="./README.en.md">🇬🇧 English</a> | 
   <a href="./README.zh.md">🇨🇳 中文</a>
 </p>
