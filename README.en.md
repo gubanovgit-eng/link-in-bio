@@ -6,13 +6,13 @@
   <a href="./README.zh.md">🇨🇳 中文</a>
 </p>
 
-———
+---
 
 ⚡️ A modern, high-performance, and responsive Link in Bio website inspired by the minimalist aesthetics of Apple interfaces and the Awwwards platform. Built on the React + Vite stack featuring custom styling and full support for micro-animations.
 
 🔗 **Live Demo:** [View Website](https://gubanovgit-eng.github.io/link-in-bio/)
 
-———
+---
 
 ## ✨ Features
 
@@ -23,7 +23,7 @@
 - 📱 **Perfect Responsiveness:** Fully optimized layout adapting beautifully from UltraWide widescreen monitors down to legacy mobile screens as small as 320px.
 - 🎨 **Modern CSS Architecture:** Pure CSS styles written using native CSS Nesting, a modular component structure, and elegant `cubic-bezier` fade-in animations.
 
-———
+---
 
 ## 🛠️ Tech Stack
 
@@ -33,7 +33,7 @@
 - **Styling:** CSS Nesting, CSS Variables
 - **Deployment:** GitHub Actions (Automated CI/CD)
 
-———
+---
 
 ## 📦 Quick Start
 
@@ -55,7 +55,7 @@
    npm run build
 ```
 
-———
+---
 
 ## 📂 Project Structure
 ```text
