@@ -39,7 +39,7 @@
 
 1. **Clone the repository:**
 ```bash
-   git clone [https://github.com/gubanovgit-eng/link-in-bio.git](https://github.com/gubanovgit-eng/link-in-bio.git)
+   git clone https://github.com/gubanovgit-eng/link-in-bio.git
    cd link-in-bio
 ```
 2. **Install dependencies:**
