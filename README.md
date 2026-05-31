@@ -31,6 +31,36 @@
 
 1. **Клонируйте репозиторий:**
    ```bash
-   git clone [https://github.com/gubanovgit-eng/link-in-bio.git](https://github.com/gubanovgit-eng/link-in-bio.git)
+   git clone https://github.com/gubanovgit-eng/link-in-bio.git
    cd link-in-bio
+   ```
+2. **Установите зависимости:**
+   ```bash
+   npm install
+   ```
+3. **Запустите локальный сервер для разработки:**
+   ```bash
+   npm run dev
+   ```
+4. **Сборка проекта для продакшена:**
+   ```bash
+   npm run build
+   ```
+   
+---
+
+## 📂 Структура проекта
+   ```text
+   src/
+├── components/
+│   ├── Avatar.jsx         # Динамический контейнер медиа-аватара
+│   ├── CustomCursor.jsx   # Логика кастомного курсора на десктопах
+│   ├── LangToggle.jsx     # Циклический переключатель языков (RU/EN/ZH)
+│   ├── Links.jsx          # Массив данных и рендеринг кнопок соцсетей
+│   └── ThemeToggle.jsx    # Логика смены тем и работа с localStorage
+├── App.jsx                # Главная точка сборки интерфейса
+├── i18n.js                # Конфигурация словарей и переводов
+├── index.css              # Оптимизированные стили с CSS Nesting
+└── main.jsx               # Инициализация React-приложения
+
    ```
