@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const mediaSources = ["/img/avatar.mp4", "/img/avatar.jpg"];
+const mediaSources = ["img/avatar.mp4", "img/avatar.jpg"];
 
 export default function Avatar() {
   const [mediaUrl, setMediaUrl] = useState("");
