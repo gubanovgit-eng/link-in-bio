@@ -6,5 +6,5 @@ export const linksData = [
   { id: "vk", href: "https://vk.com/gubanov.nikita", text: "VK", icon: faVk, className: "vk" },
   { id: "github", href: "https://github.com/gubanovgit-eng", text: "GitHub", icon: faGithub, className: "github" },
   { id: "email", href: "mailto:gubanov.git@gmail.com", text: "links.contact", icon: faEnvelope, className: "email" },
-  { id: "website", href: "#", text: "links.website", icon: faLink, className: "website" },
+  // { id: "website", href: "#", text: "links.website", icon: faLink, className: "website" },
 ];
