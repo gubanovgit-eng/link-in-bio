@@ -1,56 +1,31 @@
 import { useTranslation } from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTelegram, faVk, faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faLink } from "@fortawesome/free-solid-svg-icons";
+import { motion } from "framer-motion";
+import { linksData } from "../data/links";
 
 export default function Links() {
   const { t } = useTranslation();
 
-  const linksData = [
-    {
-      id: "telegram",
-      href: "https://t.me/voituk_nikita",
-      text: "Telegram",
-      icon: faTelegram,
-      className: "telegram",
-    },
-    {
-      id: "vk",
-      href: "https://vk.com/gubanov.nikita",
-      text: "VK",
-      icon: faVk,
-      className: "vk",
-    },
-    {
-      id: "github",
-      href: "https://github.com/gubanovgit-eng",
-      text: "GitHub",
-      icon: faGithub,
-      className: "github",
-    },
-    {
-      id: "email",
-      href: "mailto:gubanov.git@gmail.com",
-      text: t("links.contact"),
-      icon: faEnvelope,
-      className: "email",
-    },
-    {
-      id: "website",
-      href: "#",
-      text: t("links.website"),
-      icon: faLink,
-      className: "website",
-    },
-  ];
+  const handleLinkClick = (id) => {
+    // Внедрение аналитики (например, Google Analytics или Yandex Metrika)
+    console.log(`Click tracked: ${id}`);
+    // Пример для GA: window.gtag('event', 'click', { 'event_category': 'links', 'event_label': id });
+  };
 
   return (
     <div className="links-container">
-      {linksData.map((link) => {
+      {linksData.map((link, index) => {
         const isExternal = link.href.startsWith("http");
 
         return (
-          <div key={link.id}>
+          <motion.div
+            key={link.id}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: index * 0.1, duration: 0.5 }}
+            whileTap={{ scale: 0.95 }} // Анимация при клике
+            onClick={() => handleLinkClick(link.id)}
+          >
             <a
               href={link.href}
               className={`link-button ${link.className}`}
@@ -61,9 +36,9 @@ export default function Links() {
                 icon={link.icon}
                 style={{ marginRight: "0.75rem", width: "20px" }}
               />
-              {link.text}
+              {t(link.text)}
             </a>
-          </div>
+          </motion.div>
         );
       })}
     </div>
